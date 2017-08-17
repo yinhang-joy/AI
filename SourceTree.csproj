@@ -85,6 +85,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\CrowAI.cs" />
+    <Compile Include="Assets\Scripts\2\Soldier.cs" />
     <Compile Include="Assets\Scripts\Crow.cs" />
     <Compile Include="Assets\Scripts\FSM\ChaseState.cs" />
     <Compile Include="Assets\Scripts\FSM\Enemy.cs" />

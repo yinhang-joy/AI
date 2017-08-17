@@ -1,12 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class Enemy : MonoBehaviour {
-    private FSMSystem fsm; 
-
-	// Use this for initialization
-	void Start () {
+    private FSMSystem fsm;
+    // Use this for initialization
+    void Start () {
         InitFsm();
     }
 	void InitFsm()
@@ -22,5 +21,5 @@ public class Enemy : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         fsm.Update(this.gameObject);
-	}
+    }
 }
